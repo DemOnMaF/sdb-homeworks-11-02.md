@@ -61,9 +61,13 @@
 
 <details>
 
-![image](img/4e2.png)
+```
 
-![image](img/5e2.png)
+```
+
+![image](img/1e2.png)
+
+![image](img/2e2.png)
 
 Файл [haproxy](haproxy.cfg)
 
