@@ -61,15 +61,28 @@
 
 <details>
 
-```
 
+
+
+```
+#!/bin/bash
+
+
+rsync -a --checksum /home/maf /tmp/backup
+if [ $? -eq 0 ]; then
+        logger "[$(date)] Backup completed"
+        echo "[$(date)] Backup completed"
+else
+        logger "[$(date)] Backup ERROR"
+        echo "[$(date)] Backup completed"
+fi
 ```
 
 ![image](img/1e2.png)
 
 ![image](img/2e2.png)
 
-Файл [haproxy](haproxy.cfg)
+Файл [crontab](maf)
 
 </details>
 
