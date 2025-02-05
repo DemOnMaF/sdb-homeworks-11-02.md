@@ -74,7 +74,7 @@ if [ $? -eq 0 ]; then
         echo "[$(date)] Backup completed"
 else
         logger "[$(date)] Backup ERROR"
-        echo "[$(date)] Backup completed"
+        echo "[$(date)] Backup ERROR"
 fi
 ```
 
