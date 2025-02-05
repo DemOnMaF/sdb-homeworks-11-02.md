@@ -46,8 +46,7 @@
 
 <details>
 
-![image](img/3e1.png)
-![image](img/4e1.png)
+![image](img/1e1.png)
 
 </details>
 
