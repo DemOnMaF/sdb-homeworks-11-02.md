@@ -45,28 +45,7 @@
 
 <details>
 
-
-
-
-```
-#!/bin/bash
-
-
-rsync -a --checksum /home/maf /tmp/backup
-if [ $? -eq 0 ]; then
-        logger "[$(date)] Backup completed"
-        echo "[$(date)] Backup completed"
-else
-        logger "[$(date)] Backup ERROR"
-        echo "[$(date)] Backup ERROR"
-fi
-```
-
-![image](img/1e2.png)
-
-![image](img/2e2.png)
-
-Файл [crontab](maf)
+![image](img/1.1.png)
 
 </details>
 
